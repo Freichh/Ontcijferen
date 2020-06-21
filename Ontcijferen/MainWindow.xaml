@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ontcijferen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ontcijferen"
+        mc:Ignorable="d"
+        Title="Ontcijferen / Decryption - Freek Heining" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="encryptedText" HorizontalAlignment="Left" Height="170" Margin="155,21,0,0" TextWrapping="Wrap" Text="Open your textfile to decrypt..." VerticalAlignment="Top" Width="605" FontSize="16"/>
+        <Button x:Name="decrypt" Content="Decrypt" HorizontalAlignment="Left" Margin="20,225,0,0" VerticalAlignment="Top" Width="110" Click="decrypt_Click" Height="170" IsEnabled="False" FontSize="16"/>
+        <Button x:Name="open" Content="Open" HorizontalAlignment="Left" Margin="20,21,0,0" VerticalAlignment="Top" Width="110" Height="170" Click="open_Click" FontSize="16"/>
+        <TextBox x:Name="decryptedText" HorizontalAlignment="Left" Height="170" Margin="155,225,0,0" TextWrapping="Wrap" Text="Decrypted text..." VerticalAlignment="Top" Width="605" FontSize="16"/>
+
+    </Grid>
+</Window>
